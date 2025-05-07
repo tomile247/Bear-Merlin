@@ -81,6 +81,9 @@ main {
 }
 
 header {
+  position: absolute;
+  top: 0;
+  z-index: 10;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -190,15 +193,17 @@ img {
   background-image: url("/assets/images/banner1.jpg");
   background-size: cover;
   color: white;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   align-items: center;
 
 
-
+  @media screen and (min-width: 768px) {
+    height: 70vh;
+  }
 
   .content {
-    padding: 5%;
+    padding: 0 5%;
     backdrop-filter: invert(20%);
   }
 }
@@ -208,12 +213,16 @@ img {
   background-image: url("/assets/images/banner3.jpg");
   background-size: cover;
   color: white;
-  height: 60vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 2em;
+
+  @media screen and (min-width: 768px) {
+    height: 70vh;
+  }
 
   .content {
     padding: 5%;
@@ -226,10 +235,14 @@ img {
   background-image: url("/assets/images/banner4.jpg");
   background-size: cover;
   color: white;
-  height: 60vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media screen and (min-width: 768px) {
+    height: 70vh;
+  }
 
   .content {
     padding: 5%;
