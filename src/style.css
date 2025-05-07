@@ -118,6 +118,7 @@ section {
   position: relative;
   text-align: left;
   max-width: 100%;
+  min-height: 100dvh;
 }
 
 #read-more {
@@ -199,14 +200,12 @@ img {
   display: flex;
   align-items: center;
 
+  h1 {
+    color: #EEBE00;
+  }
 
   @media screen and (min-width: 768px) {
     height: 70vh;
-  }
-
-  .content {
-    padding: 0 5%;
-    backdrop-filter: invert(20%);
   }
 }
 
@@ -225,11 +224,6 @@ img {
   @media screen and (min-width: 768px) {
     height: 70vh;
   }
-
-  .content {
-    padding: 5%;
-    backdrop-filter: invert(20%);
-  }
 }
 
 #join {
@@ -245,11 +239,6 @@ img {
   @media screen and (min-width: 768px) {
     height: 70vh;
   }
-
-  .content {
-    padding: 5%;
-    backdrop-filter: invert(20%);
-  }
 }
 
 footer {
@@ -262,4 +251,9 @@ footer {
   img {
     width: 10em;
   }
+}
+
+.content {
+  padding: 5%;
+  backdrop-filter: blur(10px);
 }
