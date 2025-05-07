@@ -16,6 +16,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
 }
 
 a {
@@ -199,16 +200,41 @@ img {
   .content {
     padding: 5%;
     backdrop-filter: invert(20%);
-    /*backdrop-filter: blur(10px);*/
   }
 }
 
 #promo {
   text-align: center;
+  background-image: url("/assets/images/banner3.jpg");
+  background-size: cover;
+  color: white;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+
+  .content {
+    padding: 5%;
+    backdrop-filter: invert(20%);
+  }
 }
 
 #join {
   text-align: center;
+  background-image: url("/assets/images/banner4.jpg");
+  background-size: cover;
+  color: white;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .content {
+    padding: 5%;
+    backdrop-filter: invert(20%);
+  }
 }
 
 footer {
