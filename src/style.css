@@ -118,7 +118,10 @@ section {
   position: relative;
   text-align: left;
   max-width: 100%;
-  min-height: 100dvh;
+
+  @media screen and (max-width: 768px) {
+    min-height: 100dvh;
+  }
 }
 
 #read-more {
@@ -201,7 +204,7 @@ img {
   align-items: center;
 
   h1 {
-    color: #FFFFFF;
+    color: #EEBE00;
   }
 
   @media screen and (min-width: 768px) {
