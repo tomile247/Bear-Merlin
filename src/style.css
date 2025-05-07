@@ -142,11 +142,7 @@ section {
   gap: 20px;
 
   .card {
-
-
     flex: 1 1 25%;
-    /*width: 25%;*/
-    margin: 20px;
     padding: 20px;
     min-width: 250px;
     border-radius: 15px;
