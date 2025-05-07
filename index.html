@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/src/style.css">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script async src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   </head>
   <body>
@@ -44,12 +44,8 @@
 
     <main>
       <section id="hero">
-<!--        <video autoplay muted loop>-->
-<!--          <source src="/assets/videos/video4.mp4" type="video/mp4">-->
-<!--          Your browser does not support the video tag.-->
-<!--        </video>-->
-
         <picture>
+          <source srcset="/assets/images/banner-mobile.jpg" media="(max-width: 599px)" />
           <source srcset="/assets/images/banner1.jpg" media="(min-width: 600px)" />
           <img src="/assets/images/banner1.jpg" alt="Banner" />
         </picture>
