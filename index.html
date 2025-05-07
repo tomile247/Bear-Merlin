@@ -181,8 +181,6 @@
       const year = new Date().getFullYear();
       document.getElementById('copyright').textContent = `Copyright © ${year} Bear&Merlin. All rights reserved.`;
 
-
-      /* -------------------------- COUNTDOWN --------------------------  */
       const targetDate = new Date("2025-06-01T23:59:59").getTime();
 
       function updateCountdown() {
@@ -208,10 +206,7 @@
       updateCountdown();
       setInterval(updateCountdown, 1000);
 
-
-
       AOS.init();
-
     </script>
   </body>
 </html>
