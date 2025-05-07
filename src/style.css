@@ -103,7 +103,7 @@ section > .content {
   height: 100%;
   position: absolute;
   left: 100px;
-  top: 100px;
+  top: 500px;
   color: white;
 }
 
@@ -151,7 +151,10 @@ section > .content {
   }
 }
 
-video {
+video,
+picture,
+source,
+img {
   max-width: 100%;
 }
 
